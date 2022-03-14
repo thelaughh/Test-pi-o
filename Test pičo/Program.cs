@@ -9,7 +9,7 @@ foreach (double hodnota in seznam)
 {
     if (hodnota > 100)
     {
-        Console.WriteLine(hodnota);
+        Console.WriteLine(Math.Floor(hodnota));
     }
 }
 
